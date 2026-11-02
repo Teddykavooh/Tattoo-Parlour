@@ -12,10 +12,10 @@
 - [**x**] Establish monorepo structure (`backend/`, `frontend/`)
 - [**x**] Configure `.gitignore`
 - [**x**] Create README.md
-- [ ] Initialize Django backend
+- [**x**] Initialize Django backend
 - [ ] Initialize React frontend using Vite
-- [ ] Configure PostgreSQL
-- [ ] Configure environment variables
+- [**x**] Configure PostgreSQL
+- [**x**] Configure environment variables
 - [ ] Configure frontend/backend API communication
 
 ## 2. Backend – Django REST Framework
