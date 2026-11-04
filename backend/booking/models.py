@@ -11,7 +11,7 @@ class Artist(models.Model):
         blank=True,
         null=True
     )
-    specialties = models.CharField(
+    specialities = models.CharField(
         max_length=255,
         blank=True
     )

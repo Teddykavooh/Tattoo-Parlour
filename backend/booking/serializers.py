@@ -16,7 +16,7 @@ class ArtistSerializer(serializers.ModelSerializer):
             "name",
             "bio",
             "profile_image",
-            "specialties",
+            "specialities",
         ]
 
 

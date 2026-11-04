@@ -19,7 +19,7 @@ class Migration(migrations.Migration):
                 ('name', models.CharField(max_length=150)),
                 ('bio', models.TextField(blank=True)),
                 ('profile_image', models.ImageField(blank=True, null=True, upload_to='artists/')),
-                ('specialties', models.CharField(blank=True, max_length=255)),
+                ('specialities', models.CharField(blank=True, max_length=255)),
                 ('is_active', models.BooleanField(default=True)),
                 ('created_at', models.DateTimeField(auto_now_add=True)),
             ],
